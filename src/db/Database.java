@@ -6,7 +6,7 @@ import services.*;
 
 import java.util.*;
 
-public class Database implements Service {
+public class Database implements DbService {
     public static List<Ghoul> ghoulList = new ArrayList<>();
     static {
         ghoulList.add(new Anteika(3.2, 5.2, 4.4, 6, Ranks.SS));

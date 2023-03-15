@@ -4,7 +4,7 @@ import entities.*;
 
 import java.util.*;
 
-public interface Service {
+public interface DbService {
     List<Ghoul> getAll();
     void save(Ghoul ghoul);
     void remove(int index);
